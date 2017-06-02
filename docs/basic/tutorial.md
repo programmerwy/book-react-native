@@ -1,6 +1,6 @@
 # Tutorial
 
-Hello World（可以使用这个网站直接查看RN效果：[点这里](https://cdn.rawgit.com/dabbott/react-native-web-player/gh-v1.9.1/index.html)）
+Hello World（可以使用这个网站直接查看RN效果：[点这里(rn web player)](https://cdn.rawgit.com/dabbott/react-native-web-player/gh-v1.9.1/index.html)）
 ```
 import React, { Component } from 'react';
 import { AppRegistry, Text } from 'react-native';
@@ -33,4 +33,4 @@ App里面可能只会调一次AppRegistry.registerComponent。
 
 ### 上述代码有待完善
 
-在Prop这章会有更多东西帮助你完善这段简单的code [learn about Props](docs/basic/props.md)。
+在Prop这章会有更多东西帮助你完善这段简单的code [learn about Props](props.md)。

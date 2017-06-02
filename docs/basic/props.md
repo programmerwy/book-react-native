@@ -61,5 +61,5 @@ Hello Jaina!
 Hello Valeera!
 ```
 只用props和一些内建组件，就基本能cover住一般的静态页了，但是要想变的话，
-还得看看这个 [learn about State](docs/basic/state.md)。
+还得看看这个 [learn about State](state.md)。
 {% endblock %}
