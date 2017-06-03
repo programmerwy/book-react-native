@@ -51,11 +51,11 @@ class BlinkApp extends Component {
 AppRegistry.registerComponent('BlinkApp', () => BlinkApp);
 ```
 实际项目中不一定像这样靠timer来设置state，可能还会有类似异步请求或者用户输入这样的。
-也可以使用[Redux](http://redux.js.org/index.html)这种state容器（state container）来
+也可以使用[Redux（官方）](http://redux.js.org/index.html)这种state容器（state container）来
 控制数据流（data flow）的。要是Redux这种，可能就直接用容器自带的api了。
 
 每次调用setState的时候，Blink App都会重新渲染（re-render），机制和React一致，有兴趣
-[戳这里(React.Component API)](https://facebook.github.io/react/docs/react-component.html)。
+[戳这里(React.Component API)（官方）](https://facebook.github.io/react/docs/react-component.html)。
 
 感觉代码执行效果都是白底黑字很无聊？[learn about Style](style.md)。
 {% endblock %}
